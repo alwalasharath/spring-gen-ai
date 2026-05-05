@@ -1,0 +1,799 @@
+2026-04-22 12:38:31 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 24220 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 12:38:31 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 12:38:31 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 12:38:31 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 12:38:32 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 12:38:32 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 12:38:32 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 12:38:32 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 12:38:32 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 12:38:32 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1207 ms
+2026-04-22 12:38:34 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 12:38:34 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 12:38:34 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 12:38:34 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 3.251 seconds (process running for 4.79)
+2026-04-22 12:39:58 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 12:39:58 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 12:39:58 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 12:47:01 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 12:47:01 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 12:47:06 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 31656 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 12:47:06 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 12:47:06 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 12:47:06 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 12:47:07 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 12:47:07 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 12:47:07 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 12:47:07 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 12:47:07 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 12:47:07 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1023 ms
+2026-04-22 12:47:08 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 12:47:08 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 12:47:08 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 12:47:08 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 2.579 seconds (process running for 3.317)
+2026-04-22 12:47:59 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 12:47:59 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 12:47:59 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 12:48:00 [http-nio-8081-exec-1] WARN  traceId= spanId= o.s.a.r.a.SpringAiRetryAutoConfiguration - Retry error. Retry count: 1, Exception: HTTP 400 - {
+    "error": {
+        "message": "invalid model ID",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": null
+    }
+}
+
+org.springframework.ai.retry.NonTransientAiException: HTTP 400 - {
+    "error": {
+        "message": "invalid model ID",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": null
+    }
+}
+
+	at org.springframework.ai.retry.autoconfigure.SpringAiRetryAutoConfiguration$2.handleError(SpringAiRetryAutoConfiguration.java:109)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:58)
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:831)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:820)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:216)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:819)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$toEntityInternal$2(DefaultRestClient.java:775)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:579)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:533)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:814)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:774)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:763)
+	at org.springframework.ai.openai.api.OpenAiApi.chatCompletionEntity(OpenAiApi.java:187)
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$internalCall$1(OpenAiChatModel.java:199)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:230)
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$internalCall$3(OpenAiChatModel.java:199)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.openai.OpenAiChatModel.internalCall(OpenAiChatModel.java:196)
+	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:181)
+	at org.springframework.ai.chat.client.advisor.ChatModelCallAdvisor.adviseCall(ChatModelCallAdvisor.java:54)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatClientResponse$1(DefaultChatClient.java:469)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:467)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:446)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.chatClientResponse(DefaultChatClient.java:429)
+	at com.genai.java.spring.chat.dockermodelrunner.DockerModelRunnerController.generateLinkedinPost(DockerModelRunnerController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-22 12:48:00 [http-nio-8081-exec-1] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.ai.retry.NonTransientAiException: HTTP 400 - {
+    "error": {
+        "message": "invalid model ID",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": null
+    }
+}
+] with root cause
+org.springframework.ai.retry.NonTransientAiException: HTTP 400 - {
+    "error": {
+        "message": "invalid model ID",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": null
+    }
+}
+
+	at org.springframework.ai.retry.autoconfigure.SpringAiRetryAutoConfiguration$2.handleError(SpringAiRetryAutoConfiguration.java:109)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:58)
+	at org.springframework.web.client.StatusHandler.lambda$fromErrorHandler$1(StatusHandler.java:71)
+	at org.springframework.web.client.StatusHandler.handle(StatusHandler.java:146)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.applyStatusHandlers(DefaultRestClient.java:831)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$readBody$4(DefaultRestClient.java:820)
+	at org.springframework.web.client.DefaultRestClient.readWithMessageConverters(DefaultRestClient.java:216)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.readBody(DefaultRestClient.java:819)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.lambda$toEntityInternal$2(DefaultRestClient.java:775)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchangeInternal(DefaultRestClient.java:579)
+	at org.springframework.web.client.DefaultRestClient$DefaultRequestBodyUriSpec.exchange(DefaultRestClient.java:533)
+	at org.springframework.web.client.RestClient$RequestHeadersSpec.exchange(RestClient.java:680)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.executeAndExtract(DefaultRestClient.java:814)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntityInternal(DefaultRestClient.java:774)
+	at org.springframework.web.client.DefaultRestClient$DefaultResponseSpec.toEntity(DefaultRestClient.java:763)
+	at org.springframework.ai.openai.api.OpenAiApi.chatCompletionEntity(OpenAiApi.java:187)
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$internalCall$1(OpenAiChatModel.java:199)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:357)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:230)
+	at org.springframework.ai.openai.OpenAiChatModel.lambda$internalCall$3(OpenAiChatModel.java:199)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.openai.OpenAiChatModel.internalCall(OpenAiChatModel.java:196)
+	at org.springframework.ai.openai.OpenAiChatModel.call(OpenAiChatModel.java:181)
+	at org.springframework.ai.chat.client.advisor.ChatModelCallAdvisor.adviseCall(ChatModelCallAdvisor.java:54)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatClientResponse$1(DefaultChatClient.java:469)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:467)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:446)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.chatClientResponse(DefaultChatClient.java:429)
+	at com.genai.java.spring.chat.dockermodelrunner.DockerModelRunnerController.generateLinkedinPost(DockerModelRunnerController.java:45)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-22 15:06:02 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 15:06:02 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 15:07:53 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 3536 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 15:07:53 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 15:07:53 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 15:07:53 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 15:07:54 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 15:07:54 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 15:07:54 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 15:07:54 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 15:07:54 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 15:07:54 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1207 ms
+2026-04-22 15:07:55 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 15:07:55 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 15:07:55 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 15:07:55 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 3.055 seconds (process running for 4.009)
+2026-04-22 15:08:10 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 15:08:10 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 15:08:10 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 15:08:48 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 15:08:48 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 15:08:52 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 32388 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 15:08:52 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 15:08:52 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 15:08:52 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 15:08:53 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 15:08:53 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 15:08:53 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 15:08:53 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 15:08:53 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 15:08:53 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1071 ms
+2026-04-22 15:08:54 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 15:08:54 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 15:08:54 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 15:08:54 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 2.647 seconds (process running for 3.483)
+2026-04-22 15:08:58 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 15:08:58 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 15:08:58 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 15:08:58 [http-nio-8081-exec-1] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[SystemMessage{textContent='You are a helpful assistant that summarize any given content. Ensure the summary is concise, informative, and captures the key points. Use a friendly and approachable tone while maintaining professionalism.Do not answer anything other than the summarization. If the question is not about summarization,respond with 'I can only help with summarization tasks.'', messageType=SYSTEM, metadata={messageType=SYSTEM}}, UserMessage{content='Can you summarize the following meeting notes: In today’s Q3 planning meeting, the team discussed improving both technical reliability and user experience for our mobile payment solution. Engineering proposed migrating parts of the backend to microservices to boost scalability and adding real-time fraud detection using machine learning. The design team emphasized faster checkout flows and suggested reducing confirmation steps. They also recommended adding biometric authentication options like Face ID and fingerprint login. Marketing highlighted that smoother payments drive retention and customer satisfaction. The group agreed that technical upgrades and UX enhancements should move forward in parallel, with coordination across engineering, design, and marketing. Use the format as described in the following example while doing the summarization: Input: In today’s sales strategy meeting, we reviewed Q3 targets and performance gaps. The team agreed to focus on enterprise clients and strengthen partnerships. A proposal was made to expand into two new regions. Marketing suggested aligning campaigns with sales objectives to improve lead conversion and shorten sales cycles. Output: Action Items:* Focus on enterprise clients and partnerships.* Explore expansion into two new regions.* Align marketing campaigns with sales objectives. Decisions:* Enterprise clients prioritized for Q3.* Marketing and sales to work jointly on lead conversion.', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4o","temperature":0.7}}, context={spring.ai.chat.client.output.format=Your response should be in JSON format.
+Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation.
+Do not include markdown code blocks in your response.
+Remove the ```json markdown from the output.
+Here is the JSON Schema instance your output must adhere to:
+```{
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "type" : "object",
+  "properties" : {
+    "actionItems" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "decisions" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "errorMessage" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}```
+}]
+2026-04-22 15:09:01 [http-nio-8081-exec-1] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DXOKqazpyulVAcZdNyIyKwef3AGHo"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "{\n  \"actionItems\": [\n    \"Migrate parts of the backend to microservices.\",\n    \"Add real-time fraud detection using machine learning.\",\n    \"Enhance checkout flows by reducing confirmation steps.\",\n    \"Implement biometric authentication options.\",\n    \"Coordinate efforts across engineering, design, and marketing.\"\n  ],\n  \"decisions\": [\n    \"Proceed with technical upgrades and UX enhancements in parallel.\",\n    \"Ensure coordination across teams for effective implementation.\"\n  ]\n}"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DXOKqazpyulVAcZdNyIyKwef3AGHo",
+    "model" : "gpt-4o-2024-08-06",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29354,
+      "tokensReset" : 292.000000000
+    },
+    "usage" : {
+      "promptTokens" : 503,
+      "completionTokens" : 93,
+      "totalTokens" : 596,
+      "nativeUsage" : {
+        "completion_tokens" : 93,
+        "prompt_tokens" : 503,
+        "total_tokens" : 596,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  },
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DXOKqazpyulVAcZdNyIyKwef3AGHo"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "{\n  \"actionItems\": [\n    \"Migrate parts of the backend to microservices.\",\n    \"Add real-time fraud detection using machine learning.\",\n    \"Enhance checkout flows by reducing confirmation steps.\",\n    \"Implement biometric authentication options.\",\n    \"Coordinate efforts across engineering, design, and marketing.\"\n  ],\n  \"decisions\": [\n    \"Proceed with technical upgrades and UX enhancements in parallel.\",\n    \"Ensure coordination across teams for effective implementation.\"\n  ]\n}"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ]
+}
+2026-04-22 15:54:56 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 15:54:56 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 15:56:53 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 32360 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 15:56:53 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 15:56:53 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 15:56:53 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 15:56:56 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 15:56:56 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 15:56:56 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 15:56:56 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 15:56:56 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 15:56:56 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3131 ms
+2026-04-22 15:56:59 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 15:56:59 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 15:56:59 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 15:56:59 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 6.434 seconds (process running for 7.367)
+2026-04-22 16:18:04 [http-nio-8081-exec-3] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 16:18:04 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 16:18:04 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 16:18:05 [http-nio-8081-exec-3] INFO  traceId= spanId= c.g.j.s.c.a.ErrorWrappingAdvisor - Request received in ErrorWrappingAdvisor with prompt: Can you summarize the following meeting notes: In today’s Q3 planning meeting, the team discussed improving both technical reliability and user experience for our mobile payment solution. Engineering proposed migrating parts of the backend to microservices to boost scalability and adding real-time fraud detection using machine learning. The design team emphasized faster checkout flows and suggested reducing confirmation steps. They also recommended adding biometric authentication options like Face ID and fingerprint login. Marketing highlighted that smoother payments drive retention and customer satisfaction. The group agreed that technical upgrades and UX enhancements should move forward in parallel, with coordination across engineering, design, and marketing. Use the format as described in the following example while doing the summarization: Input: In today’s sales strategy meeting, we reviewed Q3 targets and performance gaps. The team agreed to focus on enterprise clients and strengthen partnerships. A proposal was made to expand into two new regions. Marketing suggested aligning campaigns with sales objectives to improve lead conversion and shorten sales cycles. Output: Action Items:* Focus on enterprise clients and partnerships.* Explore expansion into two new regions.* Align marketing campaigns with sales objectives. Decisions:* Enterprise clients prioritized for Q3.* Marketing and sales to work jointly on lead conversion.
+2026-04-22 16:18:05 [http-nio-8081-exec-3] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[SystemMessage{textContent='You are a helpful assistant that summarize any given content. Ensure the summary is concise, informative, and captures the key points. Use a friendly and approachable tone while maintaining professionalism.Do not answer anything other than the summarization. If the question is not about summarization,respond with 'I can only help with summarization tasks.'', messageType=SYSTEM, metadata={messageType=SYSTEM}}, UserMessage{content='Can you summarize the following meeting notes: In today’s Q3 planning meeting, the team discussed improving both technical reliability and user experience for our mobile payment solution. Engineering proposed migrating parts of the backend to microservices to boost scalability and adding real-time fraud detection using machine learning. The design team emphasized faster checkout flows and suggested reducing confirmation steps. They also recommended adding biometric authentication options like Face ID and fingerprint login. Marketing highlighted that smoother payments drive retention and customer satisfaction. The group agreed that technical upgrades and UX enhancements should move forward in parallel, with coordination across engineering, design, and marketing. Use the format as described in the following example while doing the summarization: Input: In today’s sales strategy meeting, we reviewed Q3 targets and performance gaps. The team agreed to focus on enterprise clients and strengthen partnerships. A proposal was made to expand into two new regions. Marketing suggested aligning campaigns with sales objectives to improve lead conversion and shorten sales cycles. Output: Action Items:* Focus on enterprise clients and partnerships.* Explore expansion into two new regions.* Align marketing campaigns with sales objectives. Decisions:* Enterprise clients prioritized for Q3.* Marketing and sales to work jointly on lead conversion.', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4o","temperature":0.7}}, context={spring.ai.chat.client.output.format=Your response should be in JSON format.
+Do not include any explanations, only provide a RFC8259 compliant JSON response following this format without deviation.
+Do not include markdown code blocks in your response.
+Remove the ```json markdown from the output.
+Here is the JSON Schema instance your output must adhere to:
+```{
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "type" : "object",
+  "properties" : {
+    "actionItems" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "decisions" : {
+      "type" : "array",
+      "items" : {
+        "type" : "string"
+      }
+    },
+    "errorMessage" : {
+      "type" : "string"
+    }
+  },
+  "additionalProperties" : false
+}```
+}]
+2026-04-22 16:18:08 [http-nio-8081-exec-3] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DXPPjEgi9hoRt01pwbN1NibeP6xme"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "{\n  \"actionItems\": [\n    \"Migrate parts of the backend to microservices.\",\n    \"Implement real-time fraud detection using machine learning.\",\n    \"Enhance checkout flows by reducing confirmation steps.\",\n    \"Add biometric authentication options.\",\n    \"Coordinate efforts across engineering, design, and marketing.\"\n  ],\n  \"decisions\": [\n    \"Proceed with technical upgrades and UX enhancements in parallel.\"\n  ],\n  \"errorMessage\": \"\"\n}"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DXPPjEgi9hoRt01pwbN1NibeP6xme",
+    "model" : "gpt-4o-2024-08-06",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29354,
+      "tokensReset" : 292.000000000
+    },
+    "usage" : {
+      "promptTokens" : 503,
+      "completionTokens" : 89,
+      "totalTokens" : 592,
+      "nativeUsage" : {
+        "completion_tokens" : 89,
+        "prompt_tokens" : 503,
+        "total_tokens" : 592,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  },
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DXPPjEgi9hoRt01pwbN1NibeP6xme"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "{\n  \"actionItems\": [\n    \"Migrate parts of the backend to microservices.\",\n    \"Implement real-time fraud detection using machine learning.\",\n    \"Enhance checkout flows by reducing confirmation steps.\",\n    \"Add biometric authentication options.\",\n    \"Coordinate efforts across engineering, design, and marketing.\"\n  ],\n  \"decisions\": [\n    \"Proceed with technical upgrades and UX enhancements in parallel.\"\n  ],\n  \"errorMessage\": \"\"\n}"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ]
+}
+2026-04-22 16:31:36 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 16:31:36 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 16:31:41 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 16464 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 16:31:41 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 16:31:41 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 16:31:41 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 16:31:43 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 16:31:43 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 16:31:43 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 16:31:43 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 16:31:43 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 16:31:43 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1181 ms
+2026-04-22 16:31:44 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 16:31:44 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 16:31:44 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 16:31:44 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 3.014 seconds (process running for 3.862)
+2026-04-22 16:32:00 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 16:32:00 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 16:32:00 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-22 16:32:00 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.c.a.ErrorWrappingAdvisor - Request received in ErrorWrappingAdvisor with prompt: Can you suggest a place to visit in Japan?
+2026-04-22 16:32:00 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.c.a.SystemPromptAdvisor - System Message is updated as: You are a summarizer for a given text or content. Do not answer anything other than the summarization. If the question is not about summarization,  respond with 'I can only help with summarization tasks. Never provide any other information. SystemMessage{textContent='You are a helpful assistant that summarize any given content. Ensure the summary is concise, informative, and captures the key points. Use a friendly and approachable tone while maintaining professionalism.', messageType=SYSTEM, metadata={messageType=SYSTEM}}
+2026-04-22 16:32:00 [http-nio-8081-exec-2] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Can you suggest a place to visit in Japan?', properties={messageType=USER}, messageType=USER}, SystemMessage{textContent='You are a summarizer for a given text or content. Do not answer anything other than the summarization. If the question is not about summarization,  respond with 'I can only help with summarization tasks. Never provide any other information. SystemMessage{textContent='You are a helpful assistant that summarize any given content. Ensure the summary is concise, informative, and captures the key points. Use a friendly and approachable tone while maintaining professionalism.', messageType=SYSTEM, metadata={messageType=SYSTEM}}', messageType=SYSTEM, metadata={messageType=SYSTEM}}], modelOptions=null}, context={}]
+2026-04-22 16:32:03 [http-nio-8081-exec-2] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DXPdCuQuokVuhbr9s3VudgpSWebea"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I can only help with summarization tasks. Never provide any other information."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DXPdCuQuokVuhbr9s3VudgpSWebea",
+    "model" : "gpt-4o-2024-08-06",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29854,
+      "tokensReset" : 0.292000000
+    },
+    "usage" : {
+      "promptTokens" : 123,
+      "completionTokens" : 15,
+      "totalTokens" : 138,
+      "nativeUsage" : {
+        "completion_tokens" : 15,
+        "prompt_tokens" : 123,
+        "total_tokens" : 138,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  },
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DXPdCuQuokVuhbr9s3VudgpSWebea"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I can only help with summarization tasks. Never provide any other information."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ]
+}
+2026-04-22 17:18:29 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 17:18:29 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 17:19:00 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 31068 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 17:19:00 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 17:19:00 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 17:19:00 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 17:19:01 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 17:19:01 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 17:19:01 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 17:19:01 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 17:19:01 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 17:19:01 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 962 ms
+2026-04-22 17:19:02 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 17:19:02 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 17:19:02 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 17:19:02 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 2.464 seconds (process running for 3.226)
+2026-04-22 17:19:12 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 17:19:12 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 17:19:12 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-22 17:19:12 [http-nio-8081-exec-1] INFO  traceId= spanId= c.g.j.s.c.a.ErrorWrappingAdvisor - Request received in ErrorWrappingAdvisor with prompt: Can you summarize the following meeting notes: In today’s Q3 planning meeting, the team discussed improving both technical reliability and user experience for our mobile payment solution. Engineering proposed migrating parts of the backend to microservices to boost scalability and adding real-time fraud detection using machine learning. The design team emphasized faster checkout flows and suggested reducing confirmation steps. They also recommended adding biometric authentication options like Face ID and fingerprint login. Marketing highlighted that smoother payments drive retention and customer satisfaction. The group agreed that technical upgrades and UX enhancements should move forward in parallel, with coordination across engineering, design, and marketing. Use the format as described in the following example while doing the summarization: Input: In today’s sales strategy meeting, we reviewed Q3 targets and performance gaps. The team agreed to focus on enterprise clients and strengthen partnerships. A proposal was made to expand into two new regions. Marketing suggested aligning campaigns with sales objectives to improve lead conversion and shorten sales cycles. Output: Action Items:* Focus on enterprise clients and partnerships.* Explore expansion into two new regions.* Align marketing campaigns with sales objectives. Decisions:* Enterprise clients prioritized for Q3.* Marketing and sales to work jointly on lead conversion.
+2026-04-22 17:19:12 [http-nio-8081-exec-1] ERROR traceId= spanId= o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Prompt too long: exceeds 50 characters!] with root cause
+java.lang.IllegalArgumentException: Prompt too long: exceeds 50 characters!
+	at com.genai.java.spring.chat.advisor.ValidationAdvisor.validateInput(ValidationAdvisor.java:46)
+	at com.genai.java.spring.chat.advisor.ValidationAdvisor.adviseCall(ValidationAdvisor.java:22)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110)
+	at com.genai.java.spring.chat.advisor.ErrorWrappingAdvisor.adviseCall(ErrorWrappingAdvisor.java:40)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatClientResponse$1(DefaultChatClient.java:469)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:467)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doSingleWithBeanOutputConverter(DefaultChatClient.java:418)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.entity(DefaultChatClient.java:413)
+	at com.genai.java.spring.chat.openai.OpenAIChatController.summarizeMeetingNotesStructuredOutput(OpenAIChatController.java:96)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-22 17:19:27 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 17:19:27 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 17:19:32 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 23072 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 17:19:32 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 17:19:32 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 17:19:32 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 17:19:33 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 17:19:33 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 17:19:33 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 17:19:33 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 17:19:33 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 17:19:33 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1186 ms
+2026-04-22 17:19:34 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 17:19:34 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 17:19:34 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 17:19:34 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 3.02 seconds (process running for 3.777)
+2026-04-22 17:24:33 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 17:24:33 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-22 17:38:04 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 11152 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-22 17:38:04 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-22 17:38:04 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-22 17:38:04 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-22 17:38:05 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-22 17:38:05 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-22 17:38:05 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-22 17:38:05 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-22 17:38:05 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-22 17:38:05 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1336 ms
+2026-04-22 17:38:07 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-22 17:38:07 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-22 17:38:07 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-22 17:38:07 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 4.067 seconds (process running for 5.116)
+2026-04-22 17:38:11 [http-nio-8081-exec-3] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-22 17:38:11 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-22 17:38:11 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-04-22 17:38:12 [http-nio-8081-exec-3] INFO  traceId= spanId= c.g.j.s.c.a.ErrorWrappingAdvisor - Request received in ErrorWrappingAdvisor with prompt: Can you summarize the following meeting notes: In today’s Q3 planning meeting, the team discussed improving both technical reliability and user experience for our mobile payment solution. Engineering proposed migrating parts of the backend to microservices to boost scalability and adding real-time fraud detection using machine learning. The design team emphasized faster checkout flows and suggested reducing confirmation steps. They also recommended adding biometric authentication options like Face ID and fingerprint login. Marketing highlighted that smoother payments drive retention and customer satisfaction. The group agreed that technical upgrades and UX enhancements should move forward in parallel, with coordination across engineering, design, and marketing. Use the format as described in the following example while doing the summarization: Input: In today’s sales strategy meeting, we reviewed Q3 targets and performance gaps. The team agreed to focus on enterprise clients and strengthen partnerships. A proposal was made to expand into two new regions. Marketing suggested aligning campaigns with sales objectives to improve lead conversion and shorten sales cycles. Output: Action Items:* Focus on enterprise clients and partnerships.* Explore expansion into two new regions.* Align marketing campaigns with sales objectives. Decisions:* Enterprise clients prioritized for Q3.* Marketing and sales to work jointly on lead conversion.
+2026-04-22 17:38:12 [http-nio-8081-exec-3] ERROR traceId= spanId= c.g.j.s.e.GlobalExceptionHandler - Exception occurred: Prompt too long: exceeds 50 characters!
+java.lang.IllegalArgumentException: Prompt too long: exceeds 50 characters!
+	at com.genai.java.spring.chat.advisor.ValidationAdvisor.validateInput(ValidationAdvisor.java:46)
+	at com.genai.java.spring.chat.advisor.ValidationAdvisor.adviseCall(ValidationAdvisor.java:22)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110)
+	at com.genai.java.spring.chat.advisor.ErrorWrappingAdvisor.adviseCall(ErrorWrappingAdvisor.java:40)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.lambda$nextCall$1(DefaultAroundAdvisorChain.java:110)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.advisor.DefaultAroundAdvisorChain.nextCall(DefaultAroundAdvisorChain.java:110)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.lambda$doGetObservableChatClientResponse$1(DefaultChatClient.java:469)
+	at io.micrometer.observation.Observation.observe(Observation.java:564)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doGetObservableChatClientResponse(DefaultChatClient.java:467)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.doSingleWithBeanOutputConverter(DefaultChatClient.java:418)
+	at org.springframework.ai.chat.client.DefaultChatClient$DefaultCallResponseSpec.entity(DefaultChatClient.java:413)
+	at com.genai.java.spring.chat.openai.OpenAIChatController.summarizeMeetingNotesStructuredOutput(OpenAIChatController.java:96)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-22 17:38:12 [http-nio-8081-exec-3] WARN  traceId= spanId= o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: Prompt too long: exceeds 50 characters!]
+2026-04-22 17:38:22 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-22 17:38:23 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete

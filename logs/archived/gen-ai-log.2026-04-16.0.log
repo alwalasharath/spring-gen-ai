@@ -1,0 +1,36 @@
+2026-04-16 11:52:13 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 23804 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-16 11:52:13 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 11:52:13 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-16 11:52:13 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-16 11:52:14 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-16 11:52:14 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-16 11:52:14 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-16 11:52:14 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-16 11:52:14 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-16 11:52:14 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1180 ms
+2026-04-16 11:52:15 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-16 11:52:15 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-16 11:52:15 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-16 11:52:15 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 2.799 seconds (process running for 3.856)
+2026-04-16 11:55:31 [http-nio-8081-exec-1] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-16 11:55:31 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-16 11:55:31 [http-nio-8081-exec-1] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-16 12:05:22 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-16 12:05:22 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-16 12:05:28 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 41080 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-16 12:05:28 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-16 12:05:28 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-16 12:05:28 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-16 12:05:29 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-16 12:05:29 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-16 12:05:29 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-16 12:05:29 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-16 12:05:30 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-16 12:05:30 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1853 ms
+2026-04-16 12:05:33 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-16 12:05:33 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-16 12:05:33 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-16 12:05:33 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 6.196 seconds (process running for 7.202)
+2026-04-16 12:05:53 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-16 12:05:53 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-16 12:05:53 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms

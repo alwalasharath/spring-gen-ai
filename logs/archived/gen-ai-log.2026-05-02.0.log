@@ -1,0 +1,17 @@
+2026-05-02 03:01:45 [HikariPool-1 housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h35s73ms709µs300ns).
+2026-05-02 08:31:31 [HikariPool-1 housekeeper] WARN  traceId= spanId= com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h29m51s156ms858µs100ns).
+2026-05-02 08:32:10 [traceableWatchLoopExecutor-1] WARN  traceId= spanId= c.g.j.s.r.service.PdfWatcherService - Error in watcher loop!
+java.nio.file.ClosedWatchServiceException: null
+	at java.base/sun.nio.fs.AbstractWatchService.checkOpen(AbstractWatchService.java:80)
+	at java.base/sun.nio.fs.AbstractWatchService.checkKey(AbstractWatchService.java:92)
+	at java.base/sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:119)
+	at com.genai.java.spring.rag.service.PdfWatcherService.watchDir(PdfWatcherService.java:113)
+	at com.genai.java.spring.rag.service.PdfWatcherService.lambda$start$0(PdfWatcherService.java:62)
+	at io.micrometer.context.ContextSnapshot.lambda$wrap$0(ContextSnapshot.java:91)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-05-02 08:32:10 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-02 08:32:10 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-05-02 08:32:10 [SpringApplicationShutdownHook] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-05-02 08:32:10 [SpringApplicationShutdownHook] INFO  traceId= spanId= com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

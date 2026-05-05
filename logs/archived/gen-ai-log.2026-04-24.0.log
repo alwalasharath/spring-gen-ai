@@ -1,0 +1,849 @@
+2026-04-24 15:55:35 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 15:55:35 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-24 15:57:36 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 33352 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-24 15:57:36 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-24 15:57:36 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-24 15:57:36 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-24 15:57:37 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-24 15:57:37 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-24 15:57:37 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-24 15:57:37 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-24 15:57:37 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-24 15:57:37 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2026-04-24 15:57:38 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-24 15:57:38 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-24 15:57:38 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-24 15:57:38 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 3.003 seconds (process running for 3.804)
+2026-04-24 15:57:49 [http-nio-8081-exec-3] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-24 15:57:49 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-24 15:57:49 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-24 15:57:49 [http-nio-8081-exec-3] ERROR traceId= spanId= c.g.j.s.e.GlobalExceptionHandler - Exception occurred: No static resource api/openai/chat.
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/openai/chat.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-24 15:57:50 [http-nio-8081-exec-3] WARN  traceId= spanId= o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/openai/chat.]
+2026-04-24 16:00:45 [http-nio-8081-exec-5] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Hello My name is sharath', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:00:49 [http-nio-8081-exec-5] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY864OGiZHZbUWp7xcRHncsTWFhVe"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello Sharath! 👋 Nice to meet you. How can I assist you today?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY864OGiZHZbUWp7xcRHncsTWFhVe"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello Sharath! 👋 Nice to meet you. How can I assist you today?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "metadata" : {
+    "id" : "chatcmpl-DY864OGiZHZbUWp7xcRHncsTWFhVe",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29992,
+      "tokensReset" : 0.016000000
+    },
+    "usage" : {
+      "promptTokens" : 13,
+      "completionTokens" : 18,
+      "totalTokens" : 31,
+      "nativeUsage" : {
+        "completion_tokens" : 18,
+        "prompt_tokens" : 13,
+        "total_tokens" : 31,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:00:50 [http-nio-8081-exec-5] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 6
+2026-04-24 16:00:50 [http-nio-8081-exec-5] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 18
+2026-04-24 16:01:17 [http-nio-8081-exec-6] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Sure, let's go. What is my name?', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:01:23 [http-nio-8081-exec-6] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY86YkOSK6Mwg6ZLjnav6t3HDNt3k"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "You haven’t told me your name yet! If you’d like to share it, I’ll remember it during our conversation."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY86YkOSK6Mwg6ZLjnav6t3HDNt3k"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "You haven’t told me your name yet! If you’d like to share it, I’ll remember it during our conversation."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "metadata" : {
+    "id" : "chatcmpl-DY86YkOSK6Mwg6ZLjnav6t3HDNt3k",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29990,
+      "tokensReset" : 0.020000000
+    },
+    "usage" : {
+      "promptTokens" : 17,
+      "completionTokens" : 25,
+      "totalTokens" : 42,
+      "nativeUsage" : {
+        "completion_tokens" : 25,
+        "prompt_tokens" : 17,
+        "total_tokens" : 42,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:01:24 [http-nio-8081-exec-6] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 11
+2026-04-24 16:01:24 [http-nio-8081-exec-6] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 25
+2026-04-24 16:39:53 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 16:39:53 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-24 16:39:59 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 4116 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-24 16:39:59 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-24 16:39:59 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-24 16:39:59 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-24 16:40:00 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-24 16:40:00 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:40:00 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-24 16:40:00 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-24 16:40:00 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-24 16:40:00 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1220 ms
+2026-04-24 16:40:01 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-24 16:40:01 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:40:01 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-24 16:40:01 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 2.856 seconds (process running for 3.695)
+2026-04-24 16:40:13 [http-nio-8081-exec-3] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-24 16:40:13 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-24 16:40:13 [http-nio-8081-exec-3] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-24 16:40:13 [http-nio-8081-exec-3] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Sure, let's go. What is my name?', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:40:15 [http-nio-8081-exec-3] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8iEhXo8ki2Re6lzsHO4d6Pwt2fo"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I don’t actually know your name—you haven’t told me yet! If you’d like to share it, feel free."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8iEhXo8ki2Re6lzsHO4d6Pwt2fo"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I don’t actually know your name—you haven’t told me yet! If you’d like to share it, feel free."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8iEhXo8ki2Re6lzsHO4d6Pwt2fo",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29990,
+      "tokensReset" : 0.020000000
+    },
+    "usage" : {
+      "promptTokens" : 17,
+      "completionTokens" : 25,
+      "totalTokens" : 42,
+      "nativeUsage" : {
+        "completion_tokens" : 25,
+        "prompt_tokens" : 17,
+        "total_tokens" : 42,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:40:16 [http-nio-8081-exec-3] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 11
+2026-04-24 16:40:16 [http-nio-8081-exec-3] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 25
+2026-04-24 16:40:28 [http-nio-8081-exec-5] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Heelo, My name is sharath', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:40:30 [http-nio-8081-exec-5] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8iTNXs0WVbqhzvza28RNFg1fVyY"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello Sharath! 👋 Nice to meet you. How can I help you today?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8iTNXs0WVbqhzvza28RNFg1fVyY"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello Sharath! 👋 Nice to meet you. How can I help you today?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8iTNXs0WVbqhzvza28RNFg1fVyY",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29991,
+      "tokensReset" : 0.018000000
+    },
+    "usage" : {
+      "promptTokens" : 15,
+      "completionTokens" : 18,
+      "totalTokens" : 33,
+      "nativeUsage" : {
+        "completion_tokens" : 18,
+        "prompt_tokens" : 15,
+        "total_tokens" : 33,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:40:31 [http-nio-8081-exec-5] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 8
+2026-04-24 16:40:31 [http-nio-8081-exec-5] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 18
+2026-04-24 16:40:38 [http-nio-8081-exec-6] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Sure, let's go. What is my name?', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:40:41 [http-nio-8081-exec-6] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8idCqXkB6akNkRYVSaHmaajyG5x"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I don't actually know your name unless you've told me! If you'd like to share your name, I can address you by it. How would you like me to call you?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8idCqXkB6akNkRYVSaHmaajyG5x"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I don't actually know your name unless you've told me! If you'd like to share your name, I can address you by it. How would you like me to call you?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8idCqXkB6akNkRYVSaHmaajyG5x",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29990,
+      "tokensReset" : 0.020000000
+    },
+    "usage" : {
+      "promptTokens" : 17,
+      "completionTokens" : 35,
+      "totalTokens" : 52,
+      "nativeUsage" : {
+        "completion_tokens" : 35,
+        "prompt_tokens" : 17,
+        "total_tokens" : 52,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:40:41 [http-nio-8081-exec-6] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 11
+2026-04-24 16:40:41 [http-nio-8081-exec-6] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 38
+2026-04-24 16:41:24 [http-nio-8081-exec-9] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Hello, My nam e si sai', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:41:27 [http-nio-8081-exec-9] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8jObITsWGAZksqMmmYGnMNGS7bQ"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello, Sai! Nice to meet you. How can I help you today?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8jObITsWGAZksqMmmYGnMNGS7bQ"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello, Sai! Nice to meet you. How can I help you today?"
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8jObITsWGAZksqMmmYGnMNGS7bQ",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29992,
+      "tokensReset" : 0.016000000
+    },
+    "usage" : {
+      "promptTokens" : 14,
+      "completionTokens" : 16,
+      "totalTokens" : 30,
+      "nativeUsage" : {
+        "completion_tokens" : 16,
+        "prompt_tokens" : 14,
+        "total_tokens" : 30,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:41:28 [http-nio-8081-exec-9] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 7
+2026-04-24 16:41:28 [http-nio-8081-exec-9] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 16
+2026-04-24 16:41:35 [http-nio-8081-exec-10] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Sure, let's go. What is my name?', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:41:37 [http-nio-8081-exec-10] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "results" : [ {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8jYiHbH82alXMk3mbFynyE4CjL4"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "You haven't told me your name yet! If you'd like, you can share it with me."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  } ],
+  "result" : {
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "refusal" : "",
+        "finishReason" : "STOP",
+        "annotations" : [ ],
+        "index" : 0,
+        "id" : "chatcmpl-DY8jYiHbH82alXMk3mbFynyE4CjL4"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "You haven't told me your name yet! If you'd like, you can share it with me."
+    },
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8jYiHbH82alXMk3mbFynyE4CjL4",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29990,
+      "tokensReset" : 0.020000000
+    },
+    "usage" : {
+      "promptTokens" : 17,
+      "completionTokens" : 19,
+      "totalTokens" : 36,
+      "nativeUsage" : {
+        "completion_tokens" : 19,
+        "prompt_tokens" : 17,
+        "total_tokens" : 36,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  }
+}
+2026-04-24 16:41:37 [http-nio-8081-exec-10] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 11
+2026-04-24 16:41:37 [http-nio-8081-exec-10] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 21
+2026-04-24 16:41:43 [SpringApplicationShutdownHook] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-24 16:41:43 [tomcat-shutdown] INFO  traceId= spanId= o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-24 16:41:49 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Starting GenAiJavaSpringApplication using Java 21.0.4 with PID 4140 (D:\ASpring-GenAI\gen-ai-java-spring-1\target\classes started by alwal in D:\ASpring-GenAI\gen-ai-java-spring-1)
+2026-04-24 16:41:49 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-24 16:41:49 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-24 16:41:49 [restartedMain] INFO  traceId= spanId= o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-24 16:41:50 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-04-24 16:41:50 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:41:50 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-24 16:41:50 [restartedMain] INFO  traceId= spanId= o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2026-04-24 16:41:50 [restartedMain] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-24 16:41:50 [restartedMain] INFO  traceId= spanId= o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1014 ms
+2026-04-24 16:41:51 [restartedMain] INFO  traceId= spanId= o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-24 16:41:51 [restartedMain] INFO  traceId= spanId= o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-04-24 16:41:51 [restartedMain] INFO  traceId= spanId= o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-04-24 16:41:51 [restartedMain] INFO  traceId= spanId= c.g.j.s.GenAiJavaSpringApplication - Started GenAiJavaSpringApplication in 2.305 seconds (process running for 2.967)
+2026-04-24 16:42:58 [http-nio-8081-exec-2] INFO  traceId= spanId= o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-24 16:42:58 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-24 16:42:58 [http-nio-8081-exec-2] INFO  traceId= spanId= o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-24 16:42:58 [http-nio-8081-exec-2] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='My Name is Sai', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:43:00 [http-nio-8081-exec-2] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    },
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DY8ktYNwXTLuXfUrn2fHxceBQ3Ana"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello, Sai! 😊 How can I assist you today?"
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8ktYNwXTLuXfUrn2fHxceBQ3Ana",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29994,
+      "tokensReset" : 0.012000000
+    },
+    "usage" : {
+      "promptTokens" : 11,
+      "completionTokens" : 12,
+      "totalTokens" : 23,
+      "nativeUsage" : {
+        "completion_tokens" : 12,
+        "prompt_tokens" : 11,
+        "total_tokens" : 23,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  },
+  "results" : [ {
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    },
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DY8ktYNwXTLuXfUrn2fHxceBQ3Ana"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "Hello, Sai! 😊 How can I assist you today?"
+    }
+  } ]
+}
+2026-04-24 16:43:01 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 4
+2026-04-24 16:43:01 [http-nio-8081-exec-2] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 13
+2026-04-24 16:43:09 [http-nio-8081-exec-8] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - request: ChatClientRequest[prompt=Prompt{messages=[UserMessage{content='Sure, let's go. What is my name?', properties={messageType=USER}, messageType=USER}], modelOptions=OpenAiChatOptions: {"streamUsage":false,"model":"gpt-4.1","temperature":0.7}}, context={}]
+2026-04-24 16:43:11 [http-nio-8081-exec-8] DEBUG traceId= spanId= o.s.a.c.c.a.SimpleLoggerAdvisor - response: {
+  "result" : {
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    },
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DY8l4YQvhvUNunoXWW5DTbfzBet7h"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I don't actually know your name. You haven't told me yet! If you'd like, you can share your name with me."
+    }
+  },
+  "metadata" : {
+    "id" : "chatcmpl-DY8l4YQvhvUNunoXWW5DTbfzBet7h",
+    "model" : "gpt-4.1-2025-04-14",
+    "rateLimit" : {
+      "requestsLimit" : 500,
+      "requestsRemaining" : 499,
+      "requestsReset" : 0.120000000,
+      "tokensLimit" : 30000,
+      "tokensRemaining" : 29990,
+      "tokensReset" : 0.020000000
+    },
+    "usage" : {
+      "promptTokens" : 17,
+      "completionTokens" : 25,
+      "totalTokens" : 42,
+      "nativeUsage" : {
+        "completion_tokens" : 25,
+        "prompt_tokens" : 17,
+        "total_tokens" : 42,
+        "prompt_tokens_details" : {
+          "audio_tokens" : 0,
+          "cached_tokens" : 0
+        },
+        "completion_tokens_details" : {
+          "reasoning_tokens" : 0,
+          "accepted_prediction_tokens" : 0,
+          "audio_tokens" : 0,
+          "rejected_prediction_tokens" : 0
+        }
+      }
+    },
+    "promptMetadata" : [ ],
+    "empty" : false
+  },
+  "results" : [ {
+    "metadata" : {
+      "finishReason" : "STOP",
+      "contentFilters" : [ ],
+      "empty" : true
+    },
+    "output" : {
+      "messageType" : "ASSISTANT",
+      "metadata" : {
+        "role" : "ASSISTANT",
+        "messageType" : "ASSISTANT",
+        "finishReason" : "STOP",
+        "refusal" : "",
+        "index" : 0,
+        "annotations" : [ ],
+        "id" : "chatcmpl-DY8l4YQvhvUNunoXWW5DTbfzBet7h"
+      },
+      "toolCalls" : [ ],
+      "media" : [ ],
+      "text" : "I don't actually know your name. You haven't told me yet! If you'd like, you can share your name with me."
+    }
+  } ]
+}
+2026-04-24 16:43:11 [http-nio-8081-exec-8] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Input token number: 11
+2026-04-24 16:43:11 [http-nio-8081-exec-8] INFO  traceId= spanId= c.g.j.s.c.c.CommonChatController - Output token number: 28

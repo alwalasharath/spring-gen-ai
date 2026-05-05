@@ -1,0 +1,70 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: posture-service-mcp
+  ai:
+    mcp:
+      server:
+        name: posture-service-mcp
+        version: 1.0.0
+        type: SYNC
+        instructions: "This server provides posture analysis services"
+      #  protocol: STREAMABLE
+        #streamable-http:
+      #    mcp-endpoint: /mcp
+        sse-endpoint: /sse
+        sse-message-endpoint: /mcp/messages
+        capabilities:
+          tool: true
+          resource: false
+          prompt: false
+          completion: false
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres?currentSchema=public&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
+    username: postgres
+    password: postgres
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always   # run schema.sql + data.sql on startup
+      schema-locations: classpath:db/schema.sql
+      data-locations: classpath:db/data.sql
+
+logging:
+  level:
+    root: INFO
+    com.genai.posture: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+        step: 5s
+  metrics:
+    enable:
+      all: true
+    distribution:
+      percentiles-histogram:
+        all: true
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+  otel:
+    exporter:
+      otlp:
+        endpoint: http://localhost:4317
+        protocol: grpc

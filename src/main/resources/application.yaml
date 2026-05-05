@@ -1,0 +1,164 @@
+server:
+  port: 8081
+
+app:
+  ai:
+    provider: openai # or openai
+  agent:
+    upload-dir: D:/ASpring-GenAI/agent-files/uploads
+    diagram-tool:
+      temperature: 0.2
+    posture-tool:
+      url: http://localhost:8082/api/posture/{id}
+      env: prod
+  rag:
+    force-rebuild: true #Every time your app starts, it deletes and rebuilds the entire vector store from scratch.
+    top-k: 20 #controls quantity in return,When searching for relevant documents, return only the top 4 most similar chunks.
+    similarity-threshold: 0.0 #controls quality in return, filters unrelated docs,only return chunks whose similarity
+      #score is above this value. 0.0 means no filtering at all, return everything.,set to 0 when we use reranker
+    #bcz reranker will return most relevant items compared to threshols
+    radius: 1 #When a chunk is found relevant, also include 1 neighbouring chunk on each side for extra context.
+    chunk:
+      size: 100 #Target size of each chunk in tokens (roughly 75 words). The document is split into pieces of ~100 tokens each.
+      min-chunk-size: 200 #"Too small? Merge with next",min no of chars to have before considering it as valid chunk
+      min-chunk-to-embed: 50 #Minimum size a chunk must be to get embedded (converted to a vector). Chunks smaller than 50
+      #tokens are skipped entirely — they're too small to be meaningful.
+      max-num-chunks: 8192 #Maximum total number of chunks stored across all documents.
+      #Acts as a safety cap to prevent the vector store from growing too large.
+      keep-separator: true #When splitting text, keep the separator character (like . or \n) at the end of the
+      #chunk instead of discarding it. Helps preserve sentence boundaries and readability.
+    pdf:
+      mode: page #paragraph
+      path: file:D:/ASpring-GenAI/rag-files/*.pdf #classpath:rag/qa-over-internal-docs/*.pdf
+      pages-per-document: 1
+      left-alignment: true
+      number-of-top-text-lines-to-delete: 0
+      number-of-bottom-text-lines-to-delete: 0
+    query-expander:
+      number-of-queries: 4
+    rerank:
+      url: "https://api.cohere.com/v2/rerank"
+      api-key: ${COHERE_API_KEY}
+      model: "rerank-english-v3.0"
+      top-n: 6
+    synonyms:
+      PTO: "paid time off"
+      SSO: "single sign-on"
+      MFA: "multi-factor authentication"
+      2FA: "two-factor authentication"
+      IaC: "infrastructure as code"
+      PII: "personal data"
+      CI/CD: "continuous integration and delivery"
+      NAT: "network address translation"
+      GDPR: "data protection regulation"
+      VPN: "virtual private network"
+      SDLC: "software development lifecycle"
+      DNS: "domain name system"
+      IP: "internet protocol"
+      API: "application programming interface"
+      SDK: "software development kit"
+      UI: "user interface"
+      UX: "user experience"
+      DB: "database"
+      SQL: "structured query language"
+      NoSQL: "non-relational database"
+      OS: "operating system"
+      SSH: "secure shell"
+      HTTP: "hypertext transfer protocol"
+      HTTPS: "secure hypertext transfer protocol"
+
+spring:
+  application:
+    name: gen-ai-java-spring
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+  ai:
+    chat:
+      memory:
+        repository:
+          jdbc:
+            # For local/dev, let Spring AI create the table automatically:
+            initialize-schema: always
+    vectorstore:
+      pgvector:
+        table-name-for-chat-memory: vector_store
+        table-name-for-rag: rag_vector_store
+        initialize-schema: true
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 1536
+        max-document-batch-size: 10_000
+    openai:
+      api-key:  ${OPENAI_API_KEY}
+      #base-url: http://localhost:12434/engines/llama.cpp #http://localhost:11434
+      chat:
+        options:
+          model: gpt-5.2 #gpt-4.1 #gpt-3.5-turbo #gpt-4o
+          model-vision: gpt-4.1
+      image:
+        options:
+          model: dall-e-3
+          n: 1
+          size: 1024x1024   # width x height
+          style: natural      # vivid | natural
+          quality: hd       # hd | standard | low
+          response-format: b64_json  # url | b64_json
+      audio:
+        transcription:
+          options:
+            model: whisper-1         # default
+            response-format: text     # text | json | verbose_json | srt | vtt
+            temperature: 0.7f
+            language: en
+
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: mistral:7b
+          max-new-tokens: 512
+          temperature: 0.7
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres?currentSchema=public&binaryTransfer=true&reWriteBatchedInserts=true&stringtype=unspecified
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+
+logging:
+  level:
+    root: INFO
+    com.genai.java.spring: INFO
+    org.springframework.ai: INFO
+    org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  prometheus:
+    metrics:
+      export:
+        enabled: true
+        step: 5s
+  metrics:
+    enable:
+      all: true
+    distribution:
+      percentiles-histogram:
+        all: true
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
+  otel:
+    exporter:
+      otlp:
+        endpoint: http://localhost:4317
+        protocol: grpc
+
+
